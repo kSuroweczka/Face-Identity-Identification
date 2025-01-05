@@ -8,11 +8,9 @@ This project focuses on identifying individuals wearing sunglasses using advance
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Workflow](#workflow)
-- [Usage](#usage)
+- [Workflow and Usage](#workflow-and-usage)
 - [Acknowledgments](#acknowledgments)
 
----
 
 ## **Overview**
 
@@ -25,7 +23,6 @@ This project identifies individuals wearing sunglasses by:
 
 The primary objective is to provide an accurate identification system using efficient and scalable deep learning methods.
 
----
 
 ## **Features**
 
@@ -35,7 +32,6 @@ The primary objective is to provide an accurate identification system using effi
 - **Model Training**: Builds and trains a classification model to identify individuals.
 - **Model Testing**: Evaluates the trained model using confusion matrices, classification reports, and various metrics.
 
----
 
 ## **Technologies Used**
 
@@ -46,7 +42,6 @@ The primary objective is to provide an accurate identification system using effi
 - Seaborn
 - OpenCV
 
----
 
 ## **Installation**
 
@@ -57,7 +52,7 @@ The primary objective is to provide an accurate identification system using effi
    ```
 2. Ensure you have the necessary video and image data available for processing.
 
-## **Workflow & Usage**
+## **Workflow and Usage**
 
 Follow these steps to run the project:
 
@@ -67,7 +62,7 @@ Follow these steps to run the project:
 
 2. **Extract Frames**:
 
-   - Open and run the `frames_extracting.ipynb` notebook. This will extract frames from your video footage.
+   - Open and run the `frames_extraction.ipynb` notebook. This will extract frames from your video footage.
 
 3. **Detect Faces**:
 
@@ -75,7 +70,7 @@ Follow these steps to run the project:
 
 4. **Generate Embeddings**:
 
-   - Run `embeddings_extracting.ipynb` to extract feature embeddings for the detected faces. The embeddings will be saved for training the model.
+   - Run `embeddings_extraction.ipynb` to extract feature embeddings for the detected faces. The embeddings will be saved for training the model.
 
 5. **Train the Model**:
 
